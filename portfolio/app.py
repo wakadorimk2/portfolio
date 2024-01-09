@@ -44,19 +44,15 @@ def step_by_step():
 
     # アプリ本体=================================
     col = st.columns([2,1])
-    col[0].title('wakadoriのポートフォリオ')
-    if col[1].toggle('ステップbyステップ', True):
-        st.write('### A) 1枚ずつ表示')
+    col[0].write('wakadoriのポートフォリオ')
+    if col[1].toggle('1枚ずつ', True):
         if   ss.now == 0:
-            st.write('#### 1枚目')
             buttons(ss.now)
             st.image(get_image_urls()[ss.now])
         elif ss.now == 1:
-            st.write('#### 2枚目')
             buttons(ss.now)
             st.image(get_image_urls()[ss.now])
         elif ss.now == 2:
-            st.write('#### 3枚目')
             buttons(ss.now)
             st.image(get_image_urls()[ss.now])
         else:
@@ -64,12 +60,8 @@ def step_by_step():
             buttons(ss.now)
             st.success('全てのステップが完了しました')
     else:
-        st.write('### B) 全てを表示')
-        st.write('#### 1枚目')
         st.image(get_image_urls()[0])
-        st.write('#### 2枚目')
         st.image(get_image_urls()[1])
-        st.write('#### 3枚目')
         st.image(get_image_urls()[2])
 
 
