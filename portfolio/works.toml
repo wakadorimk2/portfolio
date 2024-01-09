@@ -1,0 +1,38 @@
+title = "My works as a illustrator"
+
+[works]
+[[works.illustrations]]
+name = "天宮こころ"
+category = "Vtuber"
+x_likes = 8822
+x_reposts = 1361
+x_user_id = "wakadori_Mk3"
+x_post_date = "2021-09-08T11:27:00+09:00"
+x_post_message = "3Dおめでとうございます！"
+x_post_url = "https://twitter.com/wakadori_Mk3/status/1435565444706963459"
+x_post_hashtag = ["絵こころ"]
+image_urls = ["https://pbs.twimg.com/media/E-wmSP8UcBAYX9-?format=jpg&name=4096x4096"]
+
+[[works.illustrations]]
+name = "獅白ぼたん"
+category = "Vtuber"
+x_likes = 4452
+x_reposts = 566
+x_user_id = "wakadori_Mk3"
+x_post_date = "2021-10-25T12:44:00+09:00"
+x_post_message = "新衣装&100万人登録おめでとうございます！"
+x_post_url = "https://x.com/wakadori_Mk3/status/1452617086178529284"
+x_post_hashtag = ["ししらーと"]
+image_urls = ["https://pbs.twimg.com/media/FCi6IbpVgAUQUss?format=jpg&name=4096x4096"]
+
+[[works.illustrations]]
+name = "天宮こころ"
+category = "Vtuber"
+x_likes = 4498
+x_reposts = 503
+x_user_id = "wakadori_Mk3"
+x_post_date = "2021-10-25T14:54:00+09:00"
+x_post_message = "🐾"
+x_post_url = "https://x.com/wakadori_Mk3/status/1481278541056864259"
+x_post_hashtag = ["絵こころ"]
+image_urls = ["https://pbs.twimg.com/media/FI6Nv84akAcB8gA?format=jpg&name=4096x4096"]
