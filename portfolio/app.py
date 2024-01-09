@@ -6,7 +6,7 @@ def init_page():
     st.set_page_config(
         page_title='wakadori\'s works',
         page_icon='🐔',
-        layout='centered',
+        layout='wide',
         initial_sidebar_state='auto',
     )
     with open("portfolio/works.toml", "rb") as f:
@@ -36,8 +36,17 @@ def step_by_step():
     # アプリ本体=================================
     st.title('wakadori\'s works')
     if   ss.now == 0:
-        for work in ss.works:
-            st.image(work["image_urls"][0])
+        left_pane, center_pane, right_pane = st.columns(3)
+        height = len(ss.works) // 3
+        with left_pane:
+            for work in ss.works[:height]:
+                st.image(work["image_urls"][0])
+        with center_pane:
+            for work in ss.works[height:2*height]:
+                st.image(work["image_urls"][0])
+        with right_pane:
+            for work in ss.works[2*height:]:
+                st.image(work["image_urls"][0])
     else:
         pass
 
