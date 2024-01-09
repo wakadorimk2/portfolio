@@ -1,5 +1,12 @@
 title = "My works as a illustrator"
 
+[author]
+name = "ワカドリ"
+email = "wakadori.mk3@gmail.com"
+x_url = "https://twitter.com/wakadori_Mk3"
+pixiv_url = "https://www.pixiv.net/users/75962333"
+github_url = "https://github.com/wakadorimk2"
+
 [works]
 [[works.illustrations]]
 name = "天宮こころ"

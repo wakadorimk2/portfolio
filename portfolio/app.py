@@ -11,10 +11,11 @@ def init_page():
     )
     with open("portfolio/works.toml", "rb") as f:
         works = tomllib.load(f)
+    st.session_state.author = works["author"]
     st.session_state.works = works["works"]["illustrations"]
 
 
-def step_by_step():
+def app():
     ss = st.session_state
 
     # 状態変数==================================
@@ -35,22 +36,48 @@ def step_by_step():
 
     # アプリ本体=================================
     st.title('wakadori\'s works')
+    name = ss.author["name"]
+    email = ss.author["email"]
+    x_url = ss.author["x_url"]
+    pixiv_url = ss.author["pixiv_url"]
+    github_url = ss.author["github_url"]
+    text = f"{name} / ✉{email} / [X]({x_url}) / [Pixiv]({pixiv_url}) / [Github]({github_url})"
+    st.caption(text)
+
     if   ss.now == 0:
         left_pane, center_pane, right_pane = st.columns(3)
         height = len(ss.works) // 3
         with left_pane:
             for work in ss.works[:height]:
-                st.image(work["image_urls"][0])
+                with st.container():
+                    name = work["name"]
+                    category = work["category"]
+                    likes = work["x_likes"]
+                    reposts = work["x_reposts"]
+                    caption = f"{name} / {category} / ❤{likes} / 🔂{reposts}"
+                    st.image(work["image_urls"][0], caption=caption)
         with center_pane:
             for work in ss.works[height:2*height]:
-                st.image(work["image_urls"][0])
+                with st.container():
+                    name = work["name"]
+                    category = work["category"]
+                    likes = work["x_likes"]
+                    reposts = work["x_reposts"]
+                    caption = f"{name} / {category} / ❤{likes} / 🔂{reposts}"
+                    st.image(work["image_urls"][0], caption=caption)
         with right_pane:
             for work in ss.works[2*height:]:
-                st.image(work["image_urls"][0])
+                with st.container():
+                    name = work["name"]
+                    category = work["category"]
+                    likes = work["x_likes"]
+                    reposts = work["x_reposts"]
+                    caption = f"{name} / {category} / ❤{likes} / 🔂{reposts}"
+                    st.image(work["image_urls"][0], caption=caption)
     else:
         pass
 
 
 def main():
     init_page()
-    step_by_step()
+    app()
