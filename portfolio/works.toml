@@ -3,7 +3,8 @@ title = "My works as a illustrator"
 [works]
 [[works.illustrations]]
 name = "天宮こころ"
-category = "Vtuber"
+category = "Fanfiction"
+genre = "Vtuber"
 x_likes = 8822
 x_reposts = 1361
 x_user_id = "wakadori_Mk3"
@@ -15,7 +16,8 @@ image_urls = ["https://pbs.twimg.com/media/E-wmSP8UcBAYX9-?format=jpg&name=4096x
 
 [[works.illustrations]]
 name = "獅白ぼたん"
-category = "Vtuber"
+category = "Fanfiction"
+genre = "Vtuber"
 x_likes = 4452
 x_reposts = 566
 x_user_id = "wakadori_Mk3"
@@ -27,7 +29,8 @@ image_urls = ["https://pbs.twimg.com/media/FCi6IbpVgAUQUss?format=jpg&name=4096x
 
 [[works.illustrations]]
 name = "天宮こころ"
-category = "Vtuber"
+category = "Fanfiction"
+genre = "Vtuber"
 x_likes = 4498
 x_reposts = 503
 x_user_id = "wakadori_Mk3"
@@ -36,3 +39,93 @@ x_post_message = "🐾"
 x_post_url = "https://x.com/wakadori_Mk3/status/1481278541056864259"
 x_post_hashtag = ["絵こころ"]
 image_urls = ["https://pbs.twimg.com/media/FI6Nv84akAcB8gA?format=jpg&name=4096x4096"]
+
+[[works.illustrations]]
+name = "博衣こより"
+category = "Fanfiction"
+genre = "Vtuber"
+x_likes = 5221
+x_reposts = 814
+x_user_id = "wakadori_Mk3"
+x_post_date = "2022-01-03T14:48:00+09:00"
+x_post_message = "新衣装おめでとうございます！"
+x_post_url = "https://x.com/wakadori_Mk3/status/1478015533509640192"
+x_post_hashtag = ["こよりすけっち"]
+image_urls = ["https://pbs.twimg.com/media/FIL3KXZacAIBv48?format=jpg&name=4096x4096"]
+
+[[works.illustrations]]
+name = "獅白ぼたん"
+category = "Fanfiction"
+genre = "Vtuber"
+x_likes = 2564
+x_reposts = 381
+x_user_id = "wakadori_Mk3"
+x_post_date = "2022-05-02T12:00:00+09:00"
+x_post_message = "ふりふり水着ししろん♌"
+x_post_url = "https://x.com/wakadori_Mk3/status/1521097173705781249"
+x_post_hashtag = ["ししらーと", "ホロライブサマーに願いを"]
+image_urls = ["https://pbs.twimg.com/media/FRwBiI5VUAEDnWh?format=jpg&name=4096x4096"]
+
+[[works.illustrations]]
+name = "ブラックマジシャンガール"
+category = "Fanfiction"
+genre = "遊戯王"
+x_likes = 2055
+x_reposts = 501
+x_user_id = "wakadori_Mk3"
+x_post_date = "2022-03-08T11:05:00+09:00"
+x_post_message = "色褪せないかわいさ"
+x_post_url = "https://x.com/wakadori_Mk3/status/1501152242992181250"
+x_post_hashtag = ["遊戯王", "マスターデュエル", "BMG"]
+image_urls = ["https://pbs.twimg.com/media/FNUqAbBVEAMe1QA?format=jpg&name=medium"]
+
+[[works.illustrations]]
+name = "ロボ子さん"
+category = "Fanfiction"
+genre = "Vtuber"
+x_likes = 3319
+x_reposts = 443
+x_user_id = "wakadori_Mk3"
+x_post_date = "2021-06-09T12:27:00+09:00"
+x_post_message = "ロボ子さん新衣装おめでとう！"
+x_post_url = "https://x.com/wakadori_Mk3/status/1402603313967767552"
+x_post_hashtag = ["ロボ子Art", "ロボ子さん新衣装"]
+image_urls = ["https://pbs.twimg.com/media/E3cLsqZVgAEKjbt?format=jpg&name=4096x4096"]
+
+[[works.illustrations]]
+name = "周央サンゴ"
+category = "Fanfiction"
+genre = "Vtuber"
+x_likes = 1046
+x_reposts = 222
+x_user_id = "wakadori_Mk3"
+x_post_date = "2021-06-19T13:09:00+09:00"
+x_post_message = "ピンクの小悪魔💞🦩"
+x_post_url = "https://x.com/wakadori_Mk3/status/1406237750366326793"
+x_post_hashtag = ["描くンゴ", "周央サンゴ"]
+image_urls = ["https://pbs.twimg.com/media/E4P0nSpUYAcb-zo?format=jpg&name=4096x4096"]
+
+[[works.illustrations]]
+name = "Finana Ryugu"
+category = "Fanfiction"
+genre = "Vtuber"
+x_likes = 894
+x_reposts = 101
+x_user_id = "wakadori_Mk3"
+x_post_date = "2021-11-23T13:37:00+09:00"
+x_post_message = "Congratulations on your six-month debut."
+x_post_url = "https://x.com/wakadori_Mk3/status/1463139746746568709"
+x_post_hashtag = ["Finanart"]
+image_urls = ["https://pbs.twimg.com/media/FE4bnriakAYuIG2?format=jpg&name=4096x4096"]
+
+[[works.illustrations]]
+name = "地雷ちゃん"
+category = "Original"
+x_likes = 45
+x_reposts = 12
+x_user_id = "wakadori_Mk3"
+x_post_date = "2023-01-12T04:33:00+09:00"
+x_post_message = "地雷ちゃん"
+x_post_url = "https://x.com/wakadori_Mk3/status/1613423893355823110"
+x_post_hashtag = ["創作", "オリジナル"]
+image_urls = ["https://pbs.twimg.com/media/FmQICOvaYAAhciE?format=jpg&name=4096x4096"]
