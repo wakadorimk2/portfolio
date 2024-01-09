@@ -4,7 +4,7 @@ import streamlit as st
 
 def init_page():
     st.set_page_config(
-        page_title='wakadori\'s works',
+        page_title='ワカドリ\'s works',
         page_icon='🐔',
         layout='wide',
         initial_sidebar_state='auto',
@@ -35,14 +35,19 @@ def app():
         col[0].button('前に戻る', on_click=countdown)
 
     # アプリ本体=================================
-    st.title('wakadori\'s works')
     name = ss.author["name"]
+    st.title(f"{name}\'s works")
+    description = ss.author["description"]
     email = ss.author["email"]
     x_url = ss.author["x_url"]
     pixiv_url = ss.author["pixiv_url"]
     github_url = ss.author["github_url"]
-    text = f"{name} / ✉{email} / [X]({x_url}) / [Pixiv]({pixiv_url}) / [Github]({github_url})"
-    st.caption(text)
+    st.sidebar.title(f'{name}\'s profile')
+    st.sidebar.markdown(f'📝 {description}')
+    st.sidebar.markdown(f'📧 {email}')
+    st.sidebar.markdown(f'🌐 {x_url}')
+    st.sidebar.markdown(f'🎨 {pixiv_url}')
+    st.sidebar.markdown(f'🐙 {github_url}')
 
     if   ss.now == 0:
         left_pane, center_pane, right_pane = st.columns(3)
